@@ -37,10 +37,10 @@ if(args.rules || args.r) {
 }
 
 try {
-    let result = rpsls((argv._)[0])
-    console.log(JSON.stringify(result))
+    let input = rpsls(args._[0])
+    console.log(JSON.stringify(input))
     process.exit(0)
-} catch (e) {
+} catch (error) {
     console.log(`Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
     - Scissors CUTS Paper
     - Paper COVERS Rock

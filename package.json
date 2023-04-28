@@ -17,6 +17,7 @@
     "url": "https://github.com/comp426-2023-spring/a03-JoeZhou-encoding/issues"
   },
   "dependencies": {
+    "dos2unix": "^1.1.2",
     "minimist": "^1.2.8"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-JoeZhou-encoding#readme"
